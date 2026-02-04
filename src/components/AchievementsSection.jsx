@@ -254,28 +254,14 @@ export function AchievementsSection() {
       bgPattern: 'radial-gradient(circle at 30% 40%, rgba(249, 115, 22, 0.15) 0%, transparent 50%), radial-gradient(circle at 70% 60%, rgba(236, 72, 153, 0.15) 0%, transparent 50%)',
       lightBgPattern: 'radial-gradient(circle at 30% 40%, rgba(249, 115, 22, 0.08) 0%, transparent 50%), radial-gradient(circle at 70% 60%, rgba(236, 72, 153, 0.08) 0%, transparent 50%)',
       images: [
-        {
-          url: '/projects/Allbadges.png',
-          alt: 'LeetCode All badges',
-          caption: 'All My Badges'
-        },
-        {
-          url: '/projects/consistency.png',
-          alt: 'Consistency',
-          caption: 'Leetcode Consistency'
-        },
-        {
-          url: '/projects/200daysbadge.png',
-          alt: '200 Days Coding Badge',
-          caption: '200 Days Coding 2024'
-        },
+      
       ],
       imageType: 'Achievement Badges',
       stats: [
-        { label: 'Problems Solved', value: '550+', icon: <Target className="h-3 w-3 md:h-4 md:w-4" /> },
-        { label: 'Contest Rating', value: '1700+', icon: <TrendingUp className="h-3 w-3 md:h-4 md:w-4" /> },
-        { label: 'Global Rank', value: '<1.19L', icon: <Crown className="h-3 w-3 md:h-4 md:w-4" /> },
-        { label: 'Coding Streak', value: '200 Days', icon: <Flame className="h-3 w-3 md:h-4 md:w-4" /> }
+        { label: 'Problems Solved', value: '70+', icon: <Target className="h-3 w-3 md:h-4 md:w-4" /> },
+        { label: 'Contest Rating', value: '-', icon: <TrendingUp className="h-3 w-3 md:h-4 md:w-4" /> },
+        { label: 'Global Rank', value: '-', icon: <Crown className="h-3 w-3 md:h-4 md:w-4" /> },
+        { label: 'Coding Streak', value: '10days', icon: <Flame className="h-3 w-3 md:h-4 md:w-4" /> }
       ],
       details: [
         'June 2024 - Monthly badge earned',
