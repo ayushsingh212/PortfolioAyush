@@ -355,7 +355,7 @@ const handleSubmit = async (e) => {
               </h4>
               <div className="flex flex-wrap gap-3 sm:gap-4 justify-center sm:justify-start">
                 <SocialIcon
-                  href="https://linkedin.com/in/anshul-kotwal-b0558324a"
+                  href="https://linkedin.com/in"
                   icon={<Linkedin size={16} />}
                   color="from-blue-500 to-blue-600"
                   label="LinkedIn"
