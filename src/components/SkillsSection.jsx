@@ -15,6 +15,8 @@ const SKILLS = {
     title: "Frontend",
     icon: Globe,
     skills: [
+      ["Canvas"],
+      ["Framer-motion"],
       ["React.js", 95],
       ["Next.js", 92],
       ["Redux", 90],
