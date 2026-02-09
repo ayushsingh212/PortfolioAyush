@@ -47,6 +47,7 @@ const SKILLS = {
     skills: [
       ["MongoDB", 90],
       ["PostgreSQL", 85],
+      ["ChromaDb",90],
       ["Redis", 80],
       ["AWS", 88],
       ["Firebase", 80]
