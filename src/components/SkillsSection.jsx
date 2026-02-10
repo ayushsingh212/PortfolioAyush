@@ -50,6 +50,7 @@ const SKILLS = {
       ["ChromaDb",90],
       ["Redis", 80],
       ["AWS", 88],
+      ["Supabase",90],
       ["Firebase", 80]
     ]
   },
