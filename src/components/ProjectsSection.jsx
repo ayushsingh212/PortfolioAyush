@@ -182,7 +182,6 @@ const ProjectCard = ({ project, index }) => {
   );
 };
 
-// Background particles
 const FloatingParticles = () => (
   <div className="absolute inset-0 pointer-events-none overflow-hidden">
     {[...Array(50)].map((_, i) => (

@@ -17,7 +17,7 @@ export const PortfolioLoader = ({ onLoadingComplete }) => {
 
   const skills = [
     "React.js", "Next.js", "TypeScript", "Node.js", "Express.js",
-    "MongoDB", "PostgreSQL", "Redis", "Docker", "AWS",
+    "MongoDB", "PostgreSQL", "Redis", "Docker", "AWS","K8",
     "WebRTC", "CI/CD Automation", "UI/UX", "Creative Development"
   ];
 
