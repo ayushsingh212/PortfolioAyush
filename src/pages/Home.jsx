@@ -4,7 +4,7 @@ import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutSection";
 import { ProjectsSection } from "../components/ProjectsSection";
-import { SkillsSection } from "../components/SkillsSection";
+import  SkillsSection  from "../components/SkillsSection";
 import { ExperienceSection } from "../components/ExperienceSection";
 import { AchievementsSection } from "../components/AchievementsSection.jsx";
 import { EducationSection } from "../components/EducationSection.jsx";
