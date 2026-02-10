@@ -160,7 +160,7 @@ export const PortfolioLoader = ({ onLoadingComplete }) => {
           </p>
 
           <div className="flex gap-3 justify-center flex-wrap mt-3">
-            {["React", "Next.js", "Node.js", "Redis", "Docker", "AWS", "UI/UX"].map((tech, i) => (
+            {["React", "Next.js", "Node.js", "Redis", "Docker", "AWS"].map((tech, i) => (
               <span
                 key={tech}
                 className="px-4 py-1 text-sm bg-gradient-to-r from-cyan-400/20 to-violet-500/20 border border-cyan-400/30 rounded-full text-cyan-200 backdrop-blur-sm animate-pulse"
