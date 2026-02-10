@@ -31,7 +31,6 @@ export const Navbar = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [scrollProgress, setScrollProgress] = useState(0);
-  // const [savedScrollPosition, setSavedScrollPosition] = useState(0); // No longer needed
   const navRef = useRef(null);
 
   const navItems = [
@@ -105,14 +104,7 @@ export const Navbar = () => {
     };
   }, [handleScroll, handleMouseMove]);
 
-  // --- Mobile Drawer Scroll Lock / Unlock - Using react-remove-scroll ---
-  // THIS useEffect IS NOW MUCH SIMPLER OR CAN BE REMOVED ALMOST ENTIRELY
-  // The logic for locking/unlocking the body scroll will be handled by <RemoveScroll>
-  // You no longer need to manually manage body styles or savedScrollPosition here.
-  // The key is that RemoveScroll automatically handles the body scroll lock
-  // and restores it when it's unmounted (i.e., when isMenuOpen becomes false).
-
-  // --- Dark Mode Toggle & Initialization ---
+  
   const toggleDarkMode = useCallback(() => {
     setIsDarkMode(prev => {
       const newMode = !prev;
