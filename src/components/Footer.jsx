@@ -1,4 +1,11 @@
-import { ArrowUp, Instagram, Linkedin, Twitter } from "lucide-react";
+import {
+  ArrowUp,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Mail,
+  Github,
+} from "lucide-react";
 
 export const Footer = () => {
   const scrollToTop = (e) => {
@@ -22,6 +29,7 @@ export const Footer = () => {
 
         <div className="flex items-center gap-4">
 
+          {/* Instagram (update if needed) */}
           <a
             href="https://instagram.com/yourusername"
             target="_blank"
@@ -31,8 +39,9 @@ export const Footer = () => {
             <Instagram size={20} />
           </a>
 
+          {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/ayush-singh-b7388532b/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 text-gray-400 hover:text-blue-400 transition-all"
@@ -40,8 +49,19 @@ export const Footer = () => {
             <Linkedin size={20} />
           </a>
 
+          {/* GitHub */}
           <a
-            href="https://twitter.com/yourusername"
+            href="https://github.com/ayushsingh212"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-full bg-white/5 hover:bg-gray-500/20 text-gray-400 hover:text-gray-200 transition-all"
+          >
+            <Github size={20} />
+          </a>
+
+          {/* Twitter */}
+          <a
+            href="https://twitter.com/ayushsingh"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/5 hover:bg-sky-500/20 text-gray-400 hover:text-sky-400 transition-all"
@@ -49,6 +69,15 @@ export const Footer = () => {
             <Twitter size={20} />
           </a>
 
+          {/* Gmail */}
+          <a
+            href="mailto:ayurajput249@gmail.com"
+            className="p-2 rounded-full bg-white/5 hover:bg-red-500/20 text-gray-400 hover:text-red-400 transition-all"
+          >
+            <Mail size={20} />
+          </a>
+
+          {/* Scroll to Top */}
           <button
             onClick={scrollToTop}
             className="group relative w-12 h-12 rounded-full bg-gradient-to-tr from-cyan-500 to-purple-600 shadow-lg hover:shadow-cyan-400/40 transition-all duration-300 transform hover:-translate-y-1"
