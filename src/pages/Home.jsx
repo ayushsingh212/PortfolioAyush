@@ -22,7 +22,7 @@ export const Home = () => {
 
   return (
     <>
-      {/* Show loader first */}
+    
       {isLoading && (
         <PortfolioLoader onLoadingComplete={handleLoadingComplete} />
       )}
@@ -39,7 +39,6 @@ export const Home = () => {
             <SkillsSection />
             <ProjectsSection />
             <AchievementsSection />
-          
             <ContactSection />
           </main>
           <Footer />

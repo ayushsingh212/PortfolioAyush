@@ -140,5 +140,4 @@ function useToast() {
     dismiss: (toastId) => dispatch({ type: "DISMISS_TOAST", toastId }),
   };
 }
-
 export { useToast, toast };

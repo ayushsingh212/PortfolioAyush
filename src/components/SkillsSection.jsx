@@ -15,6 +15,8 @@ const SKILLS = {
     title: "Frontend",
     icon: Globe,
     skills: [
+      ["Canvas"],
+      ["Framer-motion"],
       ["React.js", 95],
       ["Next.js", 92],
       ["Redux", 90],
@@ -45,6 +47,7 @@ const SKILLS = {
     skills: [
       ["MongoDB", 90],
       ["PostgreSQL", 85],
+      ["ChromaDb",90],
       ["Redis", 80],
       ["AWS", 88],
       ["Firebase", 80]
