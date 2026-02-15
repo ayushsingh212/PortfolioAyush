@@ -19,7 +19,7 @@ export const NotFound = () => {
 
         {/* Title */}
         <h2 className="mt-4 text-2xl font-semibold text-white">
-          Page Not Found
+          Page Not Found ! Try another url
         </h2>
 
         {/* Description */}
