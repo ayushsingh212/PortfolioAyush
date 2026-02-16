@@ -31,7 +31,7 @@ export const Footer = () => {
 
           {/* Instagram (update if needed) */}
           <a
-            href="https://instagram.com/yourusername"
+            href="https://instagram.com/9.thakur_ayush"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-white/5 hover:bg-pink-500/20 text-gray-400 hover:text-pink-400 transition-all"
@@ -71,7 +71,7 @@ export const Footer = () => {
 
           {/* Gmail */}
           <a
-            href="mailto:ayurajput249@gmail.com"
+            href="mailto:ayushsingh212109@gmail.com"
             className="p-2 rounded-full bg-white/5 hover:bg-red-500/20 text-gray-400 hover:text-red-400 transition-all"
           >
             <Mail size={20} />
